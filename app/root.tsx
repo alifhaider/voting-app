@@ -32,7 +32,6 @@ export default function App() {
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
-        <h1 className="text-3xl text-lime-300">Hello, cruel world! </h1>
       </body>
     </html>
   );
