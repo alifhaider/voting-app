@@ -34,7 +34,7 @@ model User {
 }
 
 model Drink {
-  id          Int @id
+  id          Int @id @default(autoincrement())
   name        String @unique
   imageUrl      String?
   voteCount     Int @default(0)
