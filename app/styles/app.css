@@ -555,3 +555,8 @@ video {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
+
+.text-lime-300 {
+  --tw-text-opacity: 1;
+  color: rgb(190 242 100 / var(--tw-text-opacity));
+}
